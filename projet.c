@@ -508,7 +508,7 @@ int main(){
 			get_chemin(T1+Emetteur, Destinataire);
 			
 
-		}else if((Emetteur < 20) && (Emetteur > 9)){
+		}else if((Emetteur < 30) && (Emetteur > 9)){
 			
 			printf("\n\tLe plus court chemin de %d à %d est : ", Emetteur, Destinataire);
 			get_chemin(T2+(Emetteur-10), Destinataire);
